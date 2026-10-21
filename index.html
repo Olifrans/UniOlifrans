@@ -1,0 +1,374 @@
+<!-- 
+====================================================================
+🚨 CHECKLIST DE CONFIGURAÇÃO (VALIDAR ANTES DE PUBLICAR) 🚨
+[ ] 1. Substituir todos os marcadores 🚨 pelos IDs reais de rastreamento.
+[ ] 2. Validar links das redes sociais no rodapé.
+[ ] 3. Testar o envio do formulário e a abertura do WhatsApp.
+[ ] 4. Substituir as imagens do Unsplash por fotos reais da instituição (opcional, mas recomendado).
+[ ] 5. Atualizar a URL canônica na tag <link rel="canonical">.
+====================================================================
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="UniOlifrans - Universidade em Suzano - SP. Graduação, Pós-Graduação e Cursos Livres com excelência acadêmica e flexibilidade. Matricule-se no Centro de Suzano.">
+    <meta name="keywords" content="Universidade Suzano, Faculdade Centro de Suzano, UniOlifrans, Graduação Suzano, Pós-Graduação Suzano">
+    <meta name="author" content="Francisco Olifrans">
+    <meta name="theme-color" content="#4A0E2E">
+    
+    <!-- 🚨 SEO CANÔNICO: SUBSTITUIR PELO DOMÍNIO REAL -->
+    <link rel="canonical" href="https://www.uniolifrans.com.br/">
+
+    <title>UniOlifrans | Excelência Acadêmica no Coração de Suzano - SP</title>
+
+    <!-- Google Fonts: Playfair Display (Títulos) & Inter (Corpo) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+    <!-- 🚨 GOOGLE TAG MANAGER (HEAD) -->
+    <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','🚨GTM-XXXXXXX🚨');</script> -->
+    <!-- FIM GTM HEAD -->
+
+    <!-- Schema.org LocalBusiness / CollegeOrUniversity -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollegeOrUniversity",
+      "name": "Universidade Olifrans - UniOlifrans",
+      "image": "https://images.unsplash.com/photo-1562774053-701939374585?w=800&q=80",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Centro",
+        "addressLocality": "Suzano",
+        "addressRegion": "SP",
+        "postalCode": "08670-000",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -23.5425,
+        "longitude": -46.3108
+      },
+      "url": "https://www.uniolifrans.com.br",
+      "telephone": "+5511939592955",
+      "email": "fransoliveira@gmail.com",
+      "founder": {
+        "@type": "Person",
+        "name": "Francisco Olifrans"
+      },
+      "sameAs": [
+        "https://www.instagram.com/olifrans/",
+        "https://www.facebook.com/Francisco.Olifrans",
+        "https://www.linkedin.com/in/francisco-uni-olifrans",
+        "https://x.com/Olifrans_Olivei",
+        "https://www.tiktok.com/@uni-olifrans",
+        "https://www.youtube.com/@uni-olifrans",
+        "https://github.com/uni-olifrans"
+      ]
+    }
+    </script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 🚨 GOOGLE TAG MANAGER (NOBODY) -->
+    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=🚨GTM-XXXXXXX🚨" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+    <!-- FIM GTM NOBODY -->
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-content">
+            <a href="#" class="logo">Uni<span>Olifrans</span></a>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Cursos</a></li>
+                    <li><a href="#galeria">Campus</a></li>
+                    <li><a href="#faq">Dúvidas</a></li>
+                    <li><a href="#contato" class="btn-nav">Matricule-se</a></li>
+                </ul>
+            </nav>
+            <button id="theme-toggle" aria-label="Alternar modo escuro">
+                <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+            </button>
+            <button id="mobile-menu-btn" aria-label="Abrir menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container hero-content">
+            <h1 class="fade-in-up">Formando Líderes,<br>Transformando o <span class="highlight">Futuro</span>.</h1>
+            <p class="fade-in-up delay-1">Excelência acadêmica com flexibilidade de horários no coração de Suzano. Sua carreira de sucesso começa aqui.</p>
+            <div class="hero-cta fade-in-up delay-2">
+                <a href="#contato" class="btn-primary wa-link">Quero Garantir Minha Vaga</a>
+                <a href="#servicos" class="btn-secondary">Conhecer Cursos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faixa de Autoridade -->
+    <section id="authority-bar">
+        <div class="container authority-grid">
+            <div class="auth-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                <span>Reconhecida pelo MEC</span>
+            </div>
+            <div class="auth-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span>Horários Flexíveis (Manhã, Tarde e Noite)</span>
+            </div>
+            <div class="auth-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+                <span>Pagamento Facilitado via PIX e Boleto</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nós -->
+    <section id="sobre" class="section-padding">
+        <div class="container grid-2">
+            <div class="about-text">
+                <h2>Tradição e Inovação em <span class="highlight">Suzano</span></h2>
+                <p>A <strong>UniOlifrans</strong> nasceu com o propósito de democratizar o acesso ao ensino superior de qualidade. Localizada estrategicamente no Centro de Suzano, oferecemos um ambiente propício ao aprendizado, com corpo docente formado por mestres e doutores.</p>
+                <p>Nossa missão vai além da sala de aula: preparamos nossos alunos para o mercado de trabalho através de parcerias com empresas locais, garantindo oportunidades reais de estágio e empregabilidade.</p>
+                <ul class="differentials">
+                    <li>✅ Corpo docente com mestres e doutores</li>
+                    <li>✅ Infraestrutura moderna e laboratórios equipados</li>
+                    <li>✅ Parcerias para estágio garantido na região</li>
+                </ul>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&q=80" alt="Estudantes colaborando no campus da UniOlifrans" width="600" height="400" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços / Cursos -->
+    <section id="servicos" class="section-padding bg-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Programas de Ensino</h2>
+                <p>Escolha a trajetória que vai impulsionar sua carreira.</p>
+            </div>
+            <div class="cards-grid">
+                <!-- Card 1 -->
+                <div class="service-card">
+                    <div class="card-top-border"></div>
+                    <h3>Graduação em Administração</h3>
+                    <p>Desenvolva visão estratégica e liderança para gerir negócios em qualquer setor.</p>
+                    <span class="price">A partir de R$ 890/mês</span>
+                    <a href="#contato" class="btn-text wa-link">Saiba mais →</a>
+                </div>
+                <!-- Card 2 -->
+                <div class="service-card">
+                    <div class="card-top-border"></div>
+                    <h3>Tecnologia da Informação</h3>
+                    <p>Domine programação, redes e gestão de dados no mercado que mais cresce.</p>
+                    <span class="price">A partir de R$ 950/mês</span>
+                    <a href="#contato" class="btn-text wa-link">Saiba mais →</a>
+                </div>
+                <!-- Card 3 -->
+                <div class="service-card">
+                    <div class="card-top-border"></div>
+                    <h3>Pós em Gestão de Pessoas</h3>
+                    <p>Especialização para profissionais que desejam liderar equipes de alta performance.</p>
+                    <span class="price">A partir de R$ 450/mês</span>
+                    <a href="#contato" class="btn-text wa-link">Saiba mais →</a>
+                </div>
+                <!-- Card 4 -->
+                <div class="service-card">
+                    <div class="card-top-border"></div>
+                    <h3>Marketing Digital (Livre)</h3>
+                    <p>Curso intensivo prático para alavancar negócios nas redes sociais e tráfego pago.</p>
+                    <span class="price">12x de R$ 29,70</span>
+                    <a href="#contato" class="btn-text wa-link">Saiba mais →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section id="galeria" class="section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nosso Campus</h2>
+                <p>Um ambiente projetado para o seu desenvolvimento.</p>
+            </div>
+            <div class="gallery-grid">
+                <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=600&q=80" alt="Fachada moderna da universidade" width="400" height="300" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&q=80" alt="Sala de aula com alunos atentos" width="400" height="300" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=600&q=80" alt="Biblioteca ampla e bem iluminada" width="400" height="300" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&q=80" alt="Laboratório de informática moderno" width="400" height="300" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&q=80" alt="Estudantes em trabalho de grupo" width="400" height="300" loading="lazy">
+                <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=600&q=80" alt="Cerimônia de formatura" width="400" height="300" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="section-padding bg-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>O Que Dizem Nossos Alunos</h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p>"A flexibilidade de horário foi essencial para eu poder trabalhar e estudar. Os professores são muito atenciosos e o local é ótimo."</p>
+                    <div class="author">
+                        <strong>Mariana S.</strong>
+                        <span>Aluna de Administração</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"Consegui meu estágio no centro de Suzano através de uma parceria da própria faculdade. A UniOlifrans realmente se preocupa com o nosso futuro."</p>
+                    <div class="author">
+                        <strong>Carlos E.</strong>
+                        <span>Aluno de Tecnologia da Informação</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section-padding">
+        <div class="container max-w-800">
+            <div class="section-header">
+                <h2>Perguntas Frequentes</h2>
+            </div>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">Como funciona o processo de matrícula? <span class="icon">+</span></button>
+                    <div class="accordion-content"><p>O processo é 100% descomplicado. Você pode iniciar sua matrícula online através do nosso WhatsApp ou presencialmente no campus, levando apenas RG, CPF e histórico escolar.</p></div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">A instituição é reconhecida pelo MEC? <span class="icon">+</span></button>
+                    <div class="accordion-content"><p>Sim, todos os nossos cursos de graduação e pós-graduação possuem autorização e reconhecimento pleno do Ministério da Educação (MEC).</p></div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">Existem bolsas de estudo ou descontos? <span class="icon">+</span></button>
+                    <div class="accordion-content"><p>Oferecemos descontos de até 30% para pagamentos antecipados via PIX, além de parcerias com o PROUNI e FIES. Consulte nossa secretaria.</p></div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">O diploma tem validade em todo o território nacional? <span class="icon">+</span></button>
+                    <div class="accordion-content"><p>Sim, sendo uma instituição reconhecida pelo MEC, o diploma emitido pela UniOlifrans tem validade nacional e internacional.</p></div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header">O campus possui estacionamento? <span class="icon">+</span></button>
+                    <div class="accordion-content"><p>Sim, contamos com estacionamento próprio e seguro para alunos e colaboradores, com mensalidades com valores acessíveis.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Informações Úteis e Contato -->
+    <section id="contato" class="section-padding bg-dark text-light">
+        <div class="container grid-2">
+            <div class="contact-info">
+                <h2>Vamos Conversar?</h2>
+                <p>Entre em contato com nossa secretaria ou visite-nos no Centro de Suzano.</p>
+                
+                <div class="info-block">
+                    <h4>📍 Endereço</h4>
+                    <p>Centro, Suzano - SP, 08670-000</p>
+                </div>
+                <div class="info-block">
+                    <h4>🕒 Horário de Atendimento</h4>
+                    <p>Segunda a Sexta: 08h às 22h<br>Sábado: 08h às 12h</p>
+                </div>
+                <div class="info-block">
+                    <h4>📞 Contato</h4>
+                    <p>WhatsApp: (11) 93959-2955<br>E-mail: fransoliveira@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="contact-form-wrapper">
+                <form id="smart-form">
+                    <div class="form-group">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="name" name="name" required placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="course">Curso de Interesse</label>
+                        <select id="course" name="course" required>
+                            <option value="" disabled selected>Selecione um curso</option>
+                            <option value="Administração">Graduação em Administração</option>
+                            <option value="Tecnologia da Informação">Tecnologia da Informação</option>
+                            <option value="Gestão de Pessoas">Pós em Gestão de Pessoas</option>
+                            <option value="Marketing Digital">Marketing Digital</option>
+                            <option value="Outro">Outro / Dúvidas Gerais</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem (Opcional)</label>
+                        <textarea id="message" name="message" rows="3" placeholder="Como podemos ajudar?"></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary full-width">Enviar pelo WhatsApp</button>
+                    <p class="form-note">🔒 Seus dados serão usados apenas para contato via WhatsApp.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>Uni<span>Olifrans</span></h3>
+                <p>Formando líderes desde o coração de Suzano.</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.instagram.com/olifrans/" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+                <a href="https://www.facebook.com/Francisco.Olifrans" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
+                <a href="https://www.linkedin.com/in/francisco-uni-olifrans" target="_blank" rel="noopener" aria-label="LinkedIn">IN</a>
+                <a href="https://x.com/Olifrans_Olivei" target="_blank" rel="noopener" aria-label="X (Twitter)">X</a>
+                <a href="https://www.tiktok.com/@uni-olifrans" target="_blank" rel="noopener" aria-label="TikTok">TK</a>
+                <a href="https://www.youtube.com/@uni-olifrans" target="_blank" rel="noopener" aria-label="YouTube">YT</a>
+                <a href="https://github.com/uni-olifrans" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+            </div>
+        </div>
+        <div class="container footer-legal">
+            <p>&copy; 2026 UniOlifrans. Todos os direitos reservados.</p>
+            <p>Responsável: Francisco Olifrans | CNPJ: 53.950.418/0001-26</p>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <a href="https://wa.me/5511939592955" target="_blank" rel="noopener" class="whatsapp-float wa-link" aria-label="Fale conosco pelo WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="white"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.463 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+    </a>
+
+    <!-- Modal de Sucesso -->
+    <div id="success-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>✅ Quase lá!</h3>
+            <p>Você será redirecionado para o WhatsApp da nossa secretaria para finalizar seu atendimento.</p>
+            <button id="confirm-wa" class="btn-primary">Abrir WhatsApp</button>
+        </div>
+    </div>
+
+    <!-- Banner LGPD -->
+    <div id="cookie-banner" class="cookie-banner">
+        <p>Utilizamos cookies para melhorar sua experiência e rastrear métricas de acesso, conforme nossa Política de Privacidade. <button id="accept-cookies" class="btn-text">Aceitar</button></p>
+    </div>
+
+    <!-- 🚨 META PIXEL & GA4 (PLACEHOLDERS) -->
+    <!-- 🚨 COLE SEU ID DO META PIXEL AQUI -->
+    <!-- <script> !function(f,b,e,v,n,t,s) {if(f.fbq)return;n=f.fbq=function(){n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}; if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0'; n.queue=[];t=b.createElement(e);t.async=!0; t.src=v;s=b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t,s)}(window, document,'script', 'https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '🚨1234567890🚨'); fbq('track', 'PageView'); </script> -->
+    
+    <!-- 🚨 COLE SEU ID DO GOOGLE ANALYTICS 4 AQUI -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=🚨G-XXXXXXXXXX🚨"></script> -->
+    <!-- <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', '🚨G-XXXXXXXXXX🚨'); </script> -->
+
+    <script src="script.js"></script>
+</body>
+</html>
